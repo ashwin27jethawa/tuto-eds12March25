@@ -44,6 +44,7 @@
 
 .cards-links>ul>li h3 {
   --tw-text-opacity: 1;
+
   color: rgb(109 121 142 / var(--tw-text-opacity));
   font-size: 1rem;
   line-height: 1.5rem;
@@ -58,17 +59,20 @@
 
 .background-voilet {
   padding: 80px;
+
   --tw-bg-opacity: 1;
+
   background-color: rgb(244 245 247 / var(--tw-bg-opacity));
 }
 
 .textalignment-left>ul {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0px;
+  grid-gap: 0;
 }
 
 .textalignment-left>ul>li {
   --tw-bg-opacity: 1;
+
   background-color: rgb(244 245 247 / var(--tw-bg-opacity));
 }
 
@@ -78,7 +82,9 @@
 
 .textalignment-left>ul>li:nth-child(1) div:nth-child(1) {
   font-size: 40px;
+
   --tw-text-opacity: 1;
+
   color: rgb(43 46 140 / var(--tw-text-opacity));
   font-weight: 500;
   line-height: 2rem;
@@ -88,7 +94,9 @@
 .textalignment-left>ul>li:nth-child(1) div:nth-child(2) p {
   line-height: 28px;
   font-size: 1.125rem;
+
   --tw-text-opacity: 1;
+
   color: rgb(69 67 67 / var(--tw-text-opacity));
   text-align: left;
   margin-top: .75rem;
@@ -109,6 +117,7 @@
 main img{
   /* max-width: 0; */
 }
+
 .textalignment-left>ul>li img {
   /* max-width: 0%; */
   width: 40px;

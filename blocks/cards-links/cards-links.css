@@ -12,6 +12,7 @@
 
 .cards-links > div > div > h3 {
     --tw-text-opacity: 1;
+
     color: rgb(109 121 142 / var(--tw-text-opacity));
     font-size: 1rem;
     line-height: 1.5rem;
@@ -23,4 +24,5 @@
     color: #2b2e8c;
     margin-block: 40px;
 }
+
 /* .tw-text-lightBlue {} */
