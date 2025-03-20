@@ -1,0 +1,11 @@
+@import url('../carousel/swiper-bundle.min.css');
+
+/* .swiper {
+    width: 600px;
+    height: 300px;
+} */
+
+.swiper .img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,15 @@
+.block.abcabc {
+  background-color: black;
+  color: white;
+}
+.block.abcabc.bg-green {
+  background-color: greenyellow;
+}
+
+.section.abcabc.bg-green {
+  background-color: red;
+}
+.section.abcabc h1 {
+  background-color: aqua;
+  font-style: italic;
+}/*# sourceMappingURL=abcabc.css.map */

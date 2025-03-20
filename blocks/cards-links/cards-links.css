@@ -1,0 +1,26 @@
+.cards-links.block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 45px
+}
+
+.cards-links > div > div > p {
+    color: #2b2e8c;
+    margin: 0;
+}
+
+.cards-links > div > div > h3 {
+    --tw-text-opacity: 1;
+    color: rgb(109 121 142 / var(--tw-text-opacity));
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.cards-links-container .default-content-wrapper h1{
+    text-align: center;
+    color: #2b2e8c;
+    margin-block: 40px;
+}
+/* .tw-text-lightBlue {} */

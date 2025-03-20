@@ -1,0 +1,21 @@
+.block.abcabc {
+    background-color: black;
+    color: white;
+
+    &.bg-green {
+        background-color: greenyellow;
+    }
+}
+
+.section.abcabc {
+    &.bg-green {
+        background-color: red;
+    }
+    h1{
+        background-color: aqua;
+        font-style: italic;
+    }
+}
+.section.first{
+    
+}
