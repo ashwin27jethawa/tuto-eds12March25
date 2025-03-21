@@ -16,7 +16,7 @@ function sampleRUM(checkpoint, data) {
   const timeShift = () => (window.performance ? window.performance.now() : Date.now() - window.hlx.rum.firstReadTime);
   try {
     window.hlx = window.hlx || {};
-    sampleRUM.enhance = () => { };
+    sampleRUM.enhance = () => {};
     if (!window.hlx.rum) {
       const param = new URLSearchParams(window.location.search).get('rum');
       const weight = (window.SAMPLE_PAGEVIEWS_AT_RATE === 'high' && 10)
@@ -126,10 +126,9 @@ function sampleRUM(checkpoint, data) {
   }
 }
 
-//
-// /**
-//  * Setup block utils.
-//  */
+/**
+ * Setup block utils.
+ */
 function setup() {
   window.hlx = window.hlx || {};
   window.hlx.RUM_MASK_URL = 'full';
@@ -148,7 +147,6 @@ function setup() {
   }
 }
 
-//
 /**
  * Auto initializiation.
  */

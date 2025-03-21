@@ -1,4 +1,4 @@
-.cards > ul {
+.cards ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   grid-gap: 24px;
 }
 
-.cards > ul > li {
+.cards ul li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
 }
@@ -20,8 +20,132 @@
   line-height: 0;
 }
 
-.cards > ul > li img {
+.cards ul li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.cards-links ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 45px
+}
+
+.cards-links ul li {
+  border: none;
+}
+
+.cards-links ul li p {
+  color: #2b2e8c;
+  margin: 0;
+}
+
+.cards-links ul li h3 {
+  --tw-text-opacity: 1;
+
+  color: rgb(109 121 142 / var(--tw-text-opacity));
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.cards-container .default-content-wrapper h1 {
+  text-align: center;
+  color: #2b2e8c;
+  margin-block: 40px;
+}
+
+.background-voilet {
+  padding: 80px;
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(244 245 247 / var(--tw-bg-opacity));
+}
+
+.textalignment-left ul {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0;
+}
+
+.textalignment-left ul li {
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(244 245 247 / var(--tw-bg-opacity));
+}
+
+.textalignment-left ul li:nth-child(1) {
+  border: none;
+}
+
+.textalignment-left ul li:nth-child(1) div:nth-child(1) {
+  font-size: 40px;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(43 46 140 / var(--tw-text-opacity));
+  font-weight: 500;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.textalignment-left ul li:nth-child(1) div:nth-child(2) p {
+  line-height: 28px;
+  font-size: 1.125rem;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(69 67 67 / var(--tw-text-opacity));
+  text-align: left;
+  margin-top: .75rem;
+  margin-bottom: 16px;
+}
+
+.textalignment-left ul li:nth-child(1) .button {
+  border: none;
+  font-size: 14px;
+  padding: .5rem 1.35rem;
+  background-color: #2b2e8c !important;
+  color: #fff !important;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.textalignment-left ul li img {
+  /* max-width: 0%; */
+  width: 40px;
+}
+
+
+.textalignment-left ul li .icon {
+  height: 40px;
+  width: 50px;
+}
+
+.product-alignment {
+  margin-top: 100px;
+  text-align: left;
+  display: flex;
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(244 245 247 / var(--tw-bg-opacity));
+}
+
+.product-alignment .default-content-wrapper h1 {
+  text-align: left;
+}
+
+.products ul {
+  display: flex;
+}
+
+
+
+.products ul li:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
